@@ -2,4 +2,4 @@ SELECT sum(duration)
 FROM assignment_submissions 
 JOIN students ON student_id=students.id 
 JOIN cohorts ON students.cohort_id=cohorts.id
-WHERE cohorts.name LIKE 'FEB12';
+WHERE cohorts.name LIKE 'FEB12'
